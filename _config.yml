@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            thirdknife
+tagline:          'Lets cut some code'
+description:      'Lets cut some code. JSON.parse({"by":"shakeel"})'
+url:              http://hyde.getpoole.com
+
+author:
+  name:           'Shakeel Shafiq'
+  url:            https://twitter.com/thirdknife
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/thirdknife/site
