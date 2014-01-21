@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>thirdknife</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2014-01-22T03:48:25+05:00</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>Shakeel Shafiq</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Integrating Dropbox Chooser in Meteor Application</title>
+   <link href="http://hyde.getpoole.com/2014/01/20/integrating-dropbox-chooser-in-meteor-application/"/>
+   <updated>2014-01-20T00:00:00+05:00</updated>
+   <id>http://hyde.getpoole.com/2014/01/20/integrating-dropbox-chooser-in-meteor-application</id>
+   <content type="html">&lt;p&gt;This blog post explain how to integrate Dropbox handy tool called Chooser into your Meteor Application.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Before starting out, to integrate Chooser into your application you need to create an application using this &lt;a href=&quot;https://www.dropbox.com/developers/apps/create&quot;&gt;link&lt;/a&gt;. If you are working on you project locally you can add localhost as address in dropbox application otherwise use the live url.&lt;/p&gt;
+
+&lt;p&gt;Once above step is done you need to add this markup into your head tag.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://www.dropbox.com/static/api/2/dropins.js&amp;quot; id=&amp;quot;dropboxjs&amp;quot; data-app-key=&amp;quot;YOUR_APP_KEY&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Create a template by any name. I am calling it dropbox, and add a button to your template markup.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;template name=&amp;quot;dropbox&amp;quot;&amp;gt;
+  &amp;lt;button type=&amp;quot;button&amp;quot; id=&amp;quot;dropbox&amp;quot; class=&amp;quot;btn btn-default&amp;quot;&amp;gt;Click here to Choose Dropbox Files&amp;lt;/button&amp;gt;
+&amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In your client javascript file(in most cases it&amp;#39;s project_name.js) register events for the dropbox template as&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;Template.addDestination.events({
+    &amp;#39;click #dropbox&amp;#39; : function(e){
+        e.preventDefault();
+        Dropbox.choose({
+            linkType: &amp;quot;direct&amp;quot;,
+            multiselect: false,
+            success: function(files) {
+                Session.set(&amp;#39;files&amp;#39;,files);
+            },
+            cancel:  function() {}
+        });
+    }   
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once done if you click the button it will open Dropbox Chooser dialog box which allows to choose single file (if multiselect is false) or multiple files. Once choosen it will return a JSON based response, writing success callback you can maipulate the data however you want to. I prefered to save it using Session global object on the client. Once stored in Session you can use it to render it using other template.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
