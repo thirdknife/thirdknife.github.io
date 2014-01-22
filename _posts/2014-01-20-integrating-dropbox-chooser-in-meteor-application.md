@@ -21,7 +21,7 @@ Create a template by any name. I am calling it dropbox, and add a button to your
 
 In your client javascript file(in most cases it's project_name.js) register events for the dropbox template as
  
-	Template.addDestination.events({
+	Template.dropbox.events({
 		'click #dropbox' : function(e){
 			e.preventDefault();
 			Dropbox.choose({
