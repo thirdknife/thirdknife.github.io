@@ -3,6 +3,8 @@ layout: page
 title: Projects
 ---
 
+[Blood For Life](http://bloodforlife.com.pk) is cloud based Blood Donation directory which allows donors to update there information about recent bleeds and status.  
+
 [Karakorum Adventure](http://54.201.39.41:3000/admin) is a responsive custom website built for Karakorum Adeventure. It allows site-administrator to add required data and link different resources all together. It is a responsive website built using Meteor.js and MongoDB. 
 
 [Causera](https://causera.org/) is an e-commerce platform dedicated to making fundraising for your cause easy. This was built using Ruby on Rails. 
