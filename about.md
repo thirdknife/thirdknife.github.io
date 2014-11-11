@@ -34,10 +34,10 @@ Hi I'm Shakeel. I am a full-stack web developer. I am also known as thirdknife, 
 
 ##Competitions / Hackathons / Conferences
 
-* JavaScript ConfEU 2014 Berlin
+* [JSConf EU 2014 Berlin](http://2014.jsconf.eu/)
 * [Node Knockout 2013](http://nodeknockout.com/teams/oryx)
 * SpaceApp Challenge 2013
-* Organizer of Space App Challange 2014 Islamabad
+* [Organizer of Space App Challange 2014 Islamabad](https://2014.spaceappschallenge.org/location/islamabad/)
 * [Code for Pakistan](https://github.com/codeforpakistan)
 
 Tools I use to cut code
