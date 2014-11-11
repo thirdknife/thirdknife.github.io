@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi I'm Shakeel. I am a full-stack web developer. I am also known as thirdknife, I carve out awesome applications written in Javascript, HTML5, PHP and Python. On weekends I do hacking with arduino boards and wood craft at my workshop. I am a fitness freak and lift weights which makes me strong.
+Hi I'm Shakeel. I am a full-stack web developer. I am also known as thirdknife, I carve out awesome applications written in Javascript, HTML5, PHP and Python. On weekends I do hacking with arduino boards and wood craft at my workshop. 
 
 ## Programming Languages
 
@@ -32,10 +32,12 @@ Hi I'm Shakeel. I am a full-stack web developer. I am also known as thirdknife, 
 * MongoDB
 * DB2
 
-##Competitions / Hackathons
+##Competitions / Hackathons / Conferences
 
+* JavaScript ConfEU 2014 Berlin
 * [Node Knockout 2013](http://nodeknockout.com/teams/oryx)
 * SpaceApp Challenge 2013
+* Organizer of Space App Challange 2014 Islamabad
 * [Code for Pakistan](https://github.com/codeforpakistan)
 
 Tools I use to cut code
