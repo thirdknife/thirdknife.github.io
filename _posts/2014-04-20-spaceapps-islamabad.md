@@ -19,6 +19,5 @@ LeapBot was the solution that was nominated for Global Awards Finalist. You can 
 
 Links:
 
-*  https://2014.spaceappschallenge.org/about/
-*  https://www.facebook.com/SpaceAppsISB
-
+*  [Space Apps Challange](https://2014.spaceappschallenge.org/about/)
+*  [Facebook Page](https://www.facebook.com/SpaceAppsISB)
