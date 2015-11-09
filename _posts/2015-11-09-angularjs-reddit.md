@@ -45,6 +45,7 @@ Once the data is loaded, next part is to generate the images divs using a loop. 
 `ng-repeat="x in names | nsfw:this"` tell to iterate over names and put single value in x variable. The pipe symbols tells angular to pass in the filter for data manipulation. In my example I wanted not to show NSFW(not safe for work) images so had to pass in `nsfw` and `this` is used for sending in the scope to the filter.
 
 The filter is defined as 
+
 ```
 app.filter('nsfw', function() {
 	return function(list) {
