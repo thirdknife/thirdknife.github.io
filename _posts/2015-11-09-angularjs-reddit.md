@@ -27,7 +27,7 @@ For my case I am calling it pics. The HTML goes something like this
 </div>
 ```
 
-and the Javascript part goes something like this
+and the app controller part goes something like this
 
 ```
 app.controller('pics', function($scope, $http) {
