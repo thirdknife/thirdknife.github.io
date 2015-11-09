@@ -9,7 +9,7 @@ How to create a Gallery using AngularJS and Reddit API
 
 AngularJS helps to write javascript code in a structured way. Following will be guide how to use angular to consume reddit read only API and make a nice looking image gallery.
 
-# [DEMO](https://github.com/thirdknife/reddit_pics)
+# [DEMO](http://thirdknife.github.io/reddit_pics)
 
 Angular provides directives, which is a nice way to isolate code for a specific part of your DOM, let say you have a sidebar on your page then you create a directive and name it sidebar or what ever you want and just write your code for that part of the page.
 
