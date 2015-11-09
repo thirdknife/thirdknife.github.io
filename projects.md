@@ -11,6 +11,8 @@ title: Projects
 
 [Lingo (OpenSource)](https://github.com/thirdknife/lingo) is my pet project. One of my favorite words game is Lingo. I have created a JavaScript version of this game.
 
+[Reddit Gallery (OpenSource)](http://thirdknife.github.io/reddit_pics) is a small project which consumes reddit API and generate a nice looking gallery.
+
 [Causera](https://causera.org/) is an e-commerce platform dedicated to making fundraising for your cause easy.
 
 [Pediatrics First](mailto:shakeel.shafique@gmail.com) is an Electronic Health Record management system. It generates immunization schedule and CDC charts. It also schedules and notify the users about upcoming schedule and health checkups. Please request for a demo by writing an [email](mailto:shakeel.shafique@gmail.com).
